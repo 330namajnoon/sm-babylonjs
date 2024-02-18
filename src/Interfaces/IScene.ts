@@ -1,10 +1,8 @@
 
 import { Scene, Engine } from "@babylonjs/core";
 import IGlbModel from "./IGlbModel";
-import { IAppSceneContext } from "./IAppSceneContext";
 
 export default interface IScene {
-	context: IAppSceneContext;
 	canvas: HTMLCanvasElement;
 	engine: Engine;
 	scene: Scene;
